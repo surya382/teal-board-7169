@@ -1,0 +1,61 @@
+
+
+.store_main{
+    float: left;
+  overflow: hidden;
+}
+
+
+
+.store{
+    border:1px solid black;
+    display: flex;
+    gap: 5px;
+   
+    
+}
+
+.dropdown{
+    padding: 10px;
+    display: none;
+  position: absolute;
+  
+  
+  
+  min-width: 260px;
+  border: 1px solid black;
+  z-index: 1;
+}
+
+.store_main:hover .dropdown{display: block;}
+
+.happening{
+  display: flex;
+  gap:15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.community{
+  display: flex;
+  gap:5px;
+ 
+}
+
+.community:hover{
+  border-bottom: 1px solid black;
+
+}
+
+.login{
+  display: flex;
+  gap: 10px;
+}
+.log_img{
+  width:40px;
+  opacity:0.4
+}
+
+.log_img:hover{
+  opacity:0.9
+}
