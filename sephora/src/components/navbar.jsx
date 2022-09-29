@@ -125,9 +125,10 @@ function Navbar(){
               <p >for FREE shipping</p>
             </Box>}
 
-            <Box ><FaOpencart style={{height:"100%",width:"40px",marginLeft:"200px"}} /></Box>
+            
           </Box>
-
+            
+          <Box ><FaOpencart style={{height:"100%",width:"40px",marginLeft:"200px"}} /></Box>
           
           
          </HStack>

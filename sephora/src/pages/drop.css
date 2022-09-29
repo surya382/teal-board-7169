@@ -1,0 +1,45 @@
+
+.dropd{
+    border: 1px solid black;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+
+
+.lines{
+
+    line-height: 35px;
+
+}
+
+.lines>p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.newdata{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 1;
+    margin: auto;
+    width: 80%;
+    border: 1px solid blue;
+    padding: 20px;
+    color: black;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+
+.ndta{ display: none;}
+
+.main:hover  .ndta{
+   
+    
+    display: block;
+   
+
+}
+
+
