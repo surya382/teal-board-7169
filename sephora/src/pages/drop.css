@@ -22,13 +22,14 @@
     display: flex;
     justify-content: space-between;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     margin: auto;
     width: 80%;
     border: 1px solid blue;
     padding: 20px;
     color: black;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
     
 }
 
@@ -42,4 +43,21 @@
 
 }
 
+.prev{
+  
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    bottom: 40%;
+    z-index: 1;
+}
 
+.next{
+  
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    bottom: 40%;
+   right: 1%;
+    z-index: 1;
+}
