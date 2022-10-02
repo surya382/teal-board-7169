@@ -8,7 +8,7 @@
 
 
 .store{
-    border:1px solid black;
+    
     display: flex;
     gap: 5px;
    
@@ -24,7 +24,7 @@
   
   
   min-width: 260px;
-  border: 1px solid black;
+  
   z-index: 1;
 }
 
